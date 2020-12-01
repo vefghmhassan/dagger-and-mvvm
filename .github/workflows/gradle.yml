@@ -43,7 +43,7 @@ jobs:
         uses: DarthBenro008/app-brickie@v3.0
         with:
           type: "native"
-          chatid: "Your Unique ID Goes here"
-          packagename: "Your App Name Goes Here"
+          chatid: "dotvg"
+          packagename: "com.hassan"
       - name: Get Automated Result
         run: echo "${{ steps.appBrickieBuild.outputs.result }}"
